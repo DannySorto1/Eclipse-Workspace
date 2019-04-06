@@ -1,12 +1,13 @@
 package com.class9;
 
 public class NestedLoopDemo {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		for (int x = 1; x < 3; x++) {
+		for (int i = 1; i <=7; i++) {
 
-			
+			for (int y = 1; y <=7; y++) {
+				System.out.print(i);
+			}
+			System.out.println();
 		}
 	}
 
