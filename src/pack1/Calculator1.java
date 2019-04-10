@@ -1,41 +1,42 @@
 package pack1;
 
 public class Calculator1 {
+	int sum(int a, int b, int c) {
+		return (a + b + c);
 
-static	int sum(int a, int b) {
-		System.out.println(a + b);
-		return a + b;
 	}
 
-	static int minVal(int[] x) {
-		int min = 1;
-		for (int y : x) {
-			if (y < min) {
-				min = y;
-			}
+	int average(int a, int b, int c) {
+		return (a + b + c) / 3;
+
+	}
+
+	int min(int a, int b, int c) {
+
+		int min = a;
+
+		if (b < a) {
+			min = b;
 		}
+		if (c < min) {
+			min = c;
+		}
+
 		return min;
+
 	}
 
-static	int maxVal(int[] x) {
-		int max = 0;
-		for (int i : x) {
-			if (i > max) {
-				max = i;
-			}
+	int max(int a, int b, int c) {
+		int max = a;
+
+		if (b > a) {
+			max = b;
 		}
-		return max;
-	}
-	static double average(int[] my_array) {
-		double total = 0;
-		double average = 0;
-        for(int i=0; i<my_array.length; i++){
-        	total = total + my_array[i];
-        	  average = total / my_array.length;
-        }
+		if (c > max) {
+			max = c;
+		}
 
-return average;
-		
-		
+		return max;
+
 	}
 }

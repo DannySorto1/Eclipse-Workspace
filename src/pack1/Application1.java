@@ -36,8 +36,15 @@ public class Application1 {
 
 		System.out.println(
 				"Min value is " + Minium.minOfValues(my_array) + " and Max Value is " + Minium.maxValue(my_array));
-		System.out.println(Calculator1.average(my_array));
+		
 
+		  Calculator1 calc = new Calculator1();
+	        
+	        
+	        System.out.println(calc.sum(12, 13, 14));
+	        System.out.println(calc.average(12, 13, 14));
+	        System.out.println(calc.min(12, 13, 14));
+	        System.out.println(calc.max(12, 13, 14));
 	}
 
 }
