@@ -3,7 +3,7 @@ package pack1;
 public class Human {
 	static String eyeColour = "Brown";
 	int height = 6;;
-	int weight = 180;
+	int weight = 200;
 	String gender = "Female";
 
 	String porgramLanguage = "java";

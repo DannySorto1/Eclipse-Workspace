@@ -1,6 +1,9 @@
 package com.class20;
 
 public class StudentScore {
+	static int whatsUp(int x, int y) {
+		return x + y;
+	}
 
 	char getGrade(int score) {
 		char grade = 0;
@@ -24,6 +27,8 @@ public class StudentScore {
 		// TODO Auto-generated method stub
 		StudentScore obj = new StudentScore();
 		System.out.println(obj.getGrade(90));
+
+		
 	}
 
 }

@@ -5,7 +5,7 @@ public class Application {
 	public static void main(String[] args) {
 		Human person1 = new Human();
 
-		person1.eyeColour = "Pink";
+		
 
 		System.out.println(person1.eyeColour);
 		System.out.println(person1.height);
@@ -14,12 +14,13 @@ public class Application {
 
 		Human person2 = new Human();
 
-		person2.eyeColour = "Orange";
+		Human.eyeColour = "blue";
 
 		System.out.println(person2.eyeColour);
 		System.out.println(person2.height);
 		System.out.println(person2.weight);
 		System.out.println(person2.gender);
+		
 	}
 
 }
