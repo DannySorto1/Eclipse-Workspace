@@ -1,18 +1,26 @@
 package com.class1;
 
 public class Main {
-	static boolean bothEven(int num1, int num2) {
-		if (num1 % 2 == 0 && num2 % 2 == 0) {
-			return true;
-		} else {
-			return false;
-		}
+	public static void main(String[] args) {
+		Child cc = new Child();
+		cc.sum(50, 60);
 
 	}
+}
 
-	// test case below (dont change):
-	public static void main(String[] args) {
-		System.out.println(bothEven(8, 6)); // should be true
-		System.out.println(bothEven(5, 6)); // should be false
+class Parent {
+	int a = 10;
+	int b = 20;
+}
+
+class Child extends Parent {
+	int a = 30;
+	int b = 40;
+
+	public void sum(int a, int b) {
+		
+		System.out.println(a + b);
+		System.out.println(this.a + this.b);
+		System.out.println(super.a + super.b);
 	}
 }
