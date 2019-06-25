@@ -1,26 +1,24 @@
 package com.class1;
 
+import java.util.HashSet;
+import java.util.Iterator;
+
 public class Main {
 	public static void main(String[] args) {
-		Child cc = new Child();
-		cc.sum(50, 60);
 
-	}
-}
+		String yep = "Hello Loser";
+		String reverse = "";
 
-class Parent {
-	int a = 10;
-	int b = 20;
-}
+		for (int i = yep.length() - 1; i >= 0; i--) {
+			reverse = reverse + yep.charAt(i);
+		}
+		System.out.println(reverse);
 
-class Child extends Parent {
-	int a = 30;
-	int b = 40;
-
-	public void sum(int a, int b) {
 		
-		System.out.println(a + b);
-		System.out.println(this.a + this.b);
-		System.out.println(super.a + super.b);
+		String yep1="hello Again";
+		
+		StringBuffer sb = new StringBuffer(yep1);
+		System.out.println(sb.reverse());
+		
 	}
 }

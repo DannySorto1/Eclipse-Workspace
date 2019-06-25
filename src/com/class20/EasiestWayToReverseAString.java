@@ -7,6 +7,15 @@ public class EasiestWayToReverseAString {
 		String s = "responses";
 		StringBuilder builder = new StringBuilder(s);
 		System.out.println(builder.reverse());
+		
+		String X = "Hello";
+		String reverse = "";
+		for (int i = X.length()-1; i >= 0; i--) {
+			reverse = reverse += X.charAt(i);
+
+		}
+		System.out.println(reverse);
+
 	}
 
 }
