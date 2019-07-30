@@ -10,7 +10,7 @@ public class WorkDay {
 //	    * day once day is 6 --> your condition for your loop should become false 
 
 		boolean workDay = true;
-		int day = 1;
+		int day = 5;
 
 		while (workDay) {
 			System.out.println("I need a day off");

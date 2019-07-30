@@ -31,7 +31,7 @@ public class Notes {
 //		b. Multilevel
 //		c. Hierarchical
 //
-//	2. Polymorphism - process ob object taking many form/behaviours
+//	2. Polymorphism - process of object taking many form/behaviours
 //		a. compile time / static/ early binding 
 //		b. run time / dynamic/ late binding
 //
